@@ -1,0 +1,48 @@
+.example-is-mobile .example-toolbar {
+  position: fixed;
+  z-index: 2;
+}
+
+h1.example-app-name {
+  margin-left: 8px;
+}
+
+
+
+.example-is-mobile .example-sidenav-container {
+  flex: 1 0 auto;
+}
+
+mat-nav-list {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+
+mat-sidenav {}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  background-color: #F5F5F5;
+
+}
+
+mat-sidenav {}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+mat-sidenav {}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+  background-color: rgb(169, 169, 169);
+}
+
+
+
+
